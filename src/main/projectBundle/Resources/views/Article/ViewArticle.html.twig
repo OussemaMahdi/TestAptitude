@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Articles</title>
+    </head>
+    <body>
+        <h1>Le nombre d'articles est : {{ compteur }}</h1>
+        
+        <table border="1">
+            <tr>
+                <td> Id </td>
+                <td> Poid </td>
+                <td> Marque </td>
+                <td> Prix Public </td>
+                <td> Description </td>
+            </tr>
+            {% for article in liste %}
+            <tr>
+                <td> {{ article.artId }} </td>
+                <td> {{ article.poids }} </td>
+                <td> {{ article.marque }} </td>
+                <td> {{ article.prixPublic }} </td>
+                <td> {{ article.descrC }} </td>
+            </tr>
+{% endfor %}
+</table>
+        
+    </body>
+</html>

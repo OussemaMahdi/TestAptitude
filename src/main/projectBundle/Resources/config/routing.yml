@@ -1,0 +1,15 @@
+mainproject_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: mainprojectBundle:Default:index }
+Article_Update:
+    path:     /ArticleUpdate
+    defaults: { _controller: mainprojectBundle:Article:ArticleUpdate }
+View_Article:
+    path:     /Article
+    defaults: { _controller: mainprojectBundle:Article:ViewArticle }
+Categorie_Update:
+    path:     /CategorieUpdate
+    defaults: { _controller: mainprojectBundle:Categorie:CategorieUpdate }
+View_Categorie:
+    path:     /Categorie
+    defaults: { _controller: mainprojectBundle:Categorie:ViewCategorie }

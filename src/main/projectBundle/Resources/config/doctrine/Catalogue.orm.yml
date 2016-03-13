@@ -1,0 +1,17 @@
+main\projectBundle\Entity\Catalogue:
+    type: entity
+    table: null
+    repositoryClass: main\projectBundle\Entity\CatalogueRepository
+    id:
+        id:
+            type: string
+            length: 255
+            id: true
+    fields:
+        name:
+            type: string
+            length: 255
+        ref:
+            type: string
+            length: 255
+    lifecycleCallbacks: {  }

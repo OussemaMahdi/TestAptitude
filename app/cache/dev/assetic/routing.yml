@@ -1,0 +1,5 @@
+_assetic:
+    resource: .
+    type: assetic
+_app:
+    resource: 'C:/Users/ousse/Documents/NetBeansProjects/AptitudeTestProject_v02/app/config/routing_dev.yml'

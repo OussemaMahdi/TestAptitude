@@ -1,0 +1,13 @@
+<?php
+
+namespace main\projectBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * Article
+ */
+class Article
+{
+    
+}

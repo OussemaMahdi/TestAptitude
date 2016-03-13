@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Catalogues</title>
+    </head>
+    <body>
+        <h1>Le nombre de Categories est : {{ compteur }}</h1>
+        <table border="1">
+            <tr>
+                <td> Id </td>
+                <td> Nom </td>
+                <td> Ref </td>
+            </tr>
+            {% for categorie in liste %}
+                <tr>
+                    <td> {{ categorie.id }} </td>
+                    <td> {{ categorie.name }} </td>
+                    <td> {{ categorie.ref }} </td>
+                </tr>
+{% endfor %}
+</table>
+    </body>
+</html>

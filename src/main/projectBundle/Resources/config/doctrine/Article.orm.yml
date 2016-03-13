@@ -1,0 +1,32 @@
+main\projectBundle\Entity\Article:
+    type: entity
+    table: null
+    repositoryClass: main\projectBundle\Entity\ArticleRepository
+    id:
+        artId:
+            type: string
+            length: 255
+            id: true
+    fields:
+        artCle:
+            type: string
+            length: 255
+            column: art_cle
+        poids:
+            type: string
+            length: 255
+        marque:
+            type: string
+            length: 255
+        prixPublic:
+            type: string
+            length: 255
+            column: prix_public
+        descrC:
+            type: string
+            length: 255
+            column: descr_c
+        category:
+            type: string
+            length: 255
+    lifecycleCallbacks: {  }
